@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Abby's Place | Inland Private Resort</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <nav class="nav">
+        <a href="../index.html" class="logo"
+          ><img src="../css/images/logo.png" alt="logo"
+        /></a>
+        <a href="../index.html">Home</a>
+        <a href="ameneties.html">Ameneties</a>
+        <a href="rooms.html">Rooms</a>
+        <a href="reservation.html">Reservation</a>
+        <a href="aboutus.html">About Us</a>
+      </nav>
+
+      <main class="reservation container">
+        <form
+          action="mailto:abbysplace@example.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <h2>Reserve Now</h2>
+          <div class="">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your name"
+            />
+          </div>
+          <div class="">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+            />
+          </div>
+          <div class="">
+            <label for="pax">Pax</label>
+            <input type="text" name="name" placeholder="How many pax" />
+          </div>
+          <div class="">
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date" />
+          </div>
+          <div class="">
+            <label for="timeslot">Timeslot</label>
+            <div class="sidebyside">
+              <div class="">
+                <select name="" id="" class="checkin">
+                  <option value="">Select Check-In Time</option>
+                  <option value="12:00am">12:00am</option>
+                  <option value="1:00am">1:00am</option>
+                  <option value="2:00am">2:00am</option>
+                  <option value="3:00am">3:00am</option>
+                  <option value="4:00am">4:00am</option>
+                  <option value="5:00am">5:00am</option>
+                  <option value="6:00am">6:00am</option>
+                  <option value="7:00am">7:00am</option>
+                  <option value="8:00am">8:00am</option>
+                  <option value="9:00am">9:00am</option>
+                  <option value="10:00am">10:00am</option>
+                  <option value="11:00am">11:00am</option>
+                  <option value="12:00am">12:00am</option>
+                  <option value="1:00pm">1:00pm</option>
+                  <option value="2:00pm">2:00pm</option>
+                  <option value="3:00pm">3:00pm</option>
+                  <option value="4:00pm">4:00pm</option>
+                  <option value="5:00pm">5:00pm</option>
+                  <option value="6:00pm">6:00pm</option>
+                  <option value="7:00pm">7:00pm</option>
+                  <option value="8:00pm">8:00pm</option>
+                  <option value="9:00pm">9:00pm</option>
+                  <option value="10:00pm">10:00pm</option>
+                  <option value="11:00pm">11:00pm</option>
+                </select>
+              </div>
+
+              <span class="range"> - </span>
+              <div class="">
+                <select name="" id="" class="checkout">
+                  <option value="">Select Check-out Time</option>
+                  <option value="12:00am">12:00am</option>
+                  <option value="1:00am">1:00am</option>
+                  <option value="2:00am">2:00am</option>
+                  <option value="3:00am">3:00am</option>
+                  <option value="4:00am">4:00am</option>
+                  <option value="5:00am">5:00am</option>
+                  <option value="6:00am">6:00am</option>
+                  <option value="7:00am">7:00am</option>
+                  <option value="8:00am">8:00am</option>
+                  <option value="9:00am">9:00am</option>
+                  <option value="10:00am">10:00am</option>
+                  <option value="11:00am">11:00am</option>
+                  <option value="12:00am">12:00am</option>
+                  <option value="1:00pm">1:00pm</option>
+                  <option value="2:00pm">2:00pm</option>
+                  <option value="3:00pm">3:00pm</option>
+                  <option value="4:00pm">4:00pm</option>
+                  <option value="5:00pm">5:00pm</option>
+                  <option value="6:00pm">6:00pm</option>
+                  <option value="7:00pm">7:00pm</option>
+                  <option value="8:00pm">8:00pm</option>
+                  <option value="9:00pm">9:00pm</option>
+                  <option value="10:00pm">10:00pm</option>
+                  <option value="11:00pm">11:00pm</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <button type="submit" class="btn">Book Now</button>
+        </form>
+      </main>
+      <footer class="footer container">
+        <p><em>&copy;2024 Abby's Place. All Rights Reserved.</em></p>
+      </footer>
+    </div>
+  </body>
+</html>
